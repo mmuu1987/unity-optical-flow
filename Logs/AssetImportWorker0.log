@@ -1,0 +1,413 @@
+Using pre-set license
+Built from '2020.2/staging' branch; Version is '2020.2.6f1 (8a2143876886) revision 9052483'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1586; Version 2009; 64bit' Language: 'zh' Physical Memory: 16326 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+F:\InstallationPackage\unity2020\Unity\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/FILE_WZS/Git/unity-optical-flow
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+58781
+Successfully changed project path to: E:/FILE_WZS/Git/unity-optical-flow
+E:/FILE_WZS/Git/unity-optical-flow
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 64.83 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.6f1 (8a2143876886)
+[Subsystems] Discovering subsystems at path F:/InstallationPackage/unity2020/Unity/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/FILE_WZS/Git/unity-optical-flow/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   
+    VRAM:     5991 MB
+    Driver:   30.0.14.7212
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Initialize mono
+Mono path[0] = 'F:/InstallationPackage/unity2020/Unity/Editor/Data/Managed'
+Mono path[1] = 'F:/InstallationPackage/unity2020/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'F:/InstallationPackage/unity2020/Unity/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56116
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: F:/InstallationPackage/unity2020/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001001 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 58.96 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.114 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.002047 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 56.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.056 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3236 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 135.5 MB.
+System memory in use after: 135.5 MB.
+
+Unloading 44 unused Assets to reduce memory usage. Loaded Objects now: 3654.
+Total: 3.248300 ms (FindLiveObjects: 0.360600 ms CreateObjectMapping: 0.318800 ms MarkObjects: 2.376400 ms  DeleteObjects: 0.191100 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e068a1ee28eb50398abe5e920fbcdb48') in 0.074359 seconds
+  Import took 0.096506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003439 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e068a1ee28eb50398abe5e920fbcdb48') in 0.007797 seconds
+  Import took 0.013936 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.579363 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d47711ebc75b23ba9a90b845a249f3') in 0.005538 seconds
+  Import took 0.137214 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002780 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d47711ebc75b23ba9a90b845a249f3') in 0.005122 seconds
+  Import took 0.010011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.529128 seconds.
+  path: Assets/OpticalFlow/Shaders/OpticalFlow.shader
+  artifactKey: Guid(a6eb9cc49421c8e46927742396372e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpticalFlow/Shaders/OpticalFlow.shader using Guid(a6eb9cc49421c8e46927742396372e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670a7603c71524432135b8a9bd66a998') in 0.088880 seconds
+  Import took 0.093820 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006796 seconds.
+  path: Assets/OpticalFlow/Shaders/OpticalFlow.shader
+  artifactKey: Guid(a6eb9cc49421c8e46927742396372e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OpticalFlow/Shaders/OpticalFlow.shader using Guid(a6eb9cc49421c8e46927742396372e67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '670a7603c71524432135b8a9bd66a998') in 0.003024 seconds
+  Import took 0.007255 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001948 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.042 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.86 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.6 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3656.
+Total: 5.090600 ms (FindLiveObjects: 1.110700 ms CreateObjectMapping: 0.393700 ms MarkObjects: 3.356600 ms  DeleteObjects: 0.227600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002077 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.78 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3658.
+Total: 3.753700 ms (FindLiveObjects: 0.378500 ms CreateObjectMapping: 0.247300 ms MarkObjects: 2.920000 ms  DeleteObjects: 0.206300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.066938 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c3c88969122731039cf77ec7b4fc0f5') in 0.024744 seconds
+  Import took 0.047554 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 267.180933 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab04598437992f9af561136e32bde86') in 0.004708 seconds
+  Import took 0.017713 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002326 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.013 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.7 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3660.
+Total: 3.539800 ms (FindLiveObjects: 0.469500 ms CreateObjectMapping: 0.282600 ms MarkObjects: 2.552200 ms  DeleteObjects: 0.233200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1361.512144 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834cfdc50882ad6399cfb780a465e965') in 0.024818 seconds
+  Import took 0.038267 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002189 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.988 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3662.
+Total: 3.956200 ms (FindLiveObjects: 0.751800 ms CreateObjectMapping: 0.303000 ms MarkObjects: 2.602400 ms  DeleteObjects: 0.286300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 893.076269 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d5b9498a4f84e08360c0c0917caec1b') in 0.014322 seconds
+  Import took 0.046277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.726036 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06fee733eaa4d4c7ca2feeda17123abe') in 0.003481 seconds
+  Import took 0.021685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.525529 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807f40cf3149e0478e8e3159f698d3be') in 0.005490 seconds
+  Import took 0.020766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.933653 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f41017adbaffedd306dec0097d88711e') in 0.003282 seconds
+  Import took 0.008366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.148788 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '562f715f08051c6ba8b8574352faaaf0') in 0.004135 seconds
+  Import took 0.055552 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.233161 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d4739295ba339e808c57bb2162c957c') in 0.004306 seconds
+  Import took 0.016645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 38.273462 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f241b65352ae49727c6b166157f28704') in 0.003374 seconds
+  Import took 0.085453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 33.640874 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25399e308dbaed757ecd8c38f8b808a') in 0.003447 seconds
+  Import took 0.030423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004414 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25399e308dbaed757ecd8c38f8b808a') in 0.003617 seconds
+  Import took 0.007961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2782.533847 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f9c2861959dd2e5ea0338b1bad570e') in 0.016742 seconds
+  Import took 0.049591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000809 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f9c2861959dd2e5ea0338b1bad570e') in 0.003286 seconds
+  Import took 0.007931 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.892429 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475d6ac6f0fee36b92cbaefe27e16ac0') in 0.003721 seconds
+  Import took 0.055880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004960 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475d6ac6f0fee36b92cbaefe27e16ac0') in 0.003908 seconds
+  Import took 0.008130 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.800776 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a3bdca8caa3f8192f2e257c089910b') in 0.003941 seconds
+  Import took 0.019169 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029159 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a3bdca8caa3f8192f2e257c089910b') in 0.003643 seconds
+  Import took 0.008274 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.074991 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '675a1b32682e1be39fe6b991d9c76d88') in 0.002831 seconds
+  Import took 0.007730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.518354 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5d0e76d15902f86820a2710976b5be') in 0.003244 seconds
+  Import took 0.101541 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.743467 seconds.
+  path: Assets/VFX/TestOpticalFlow.vfx
+  artifactKey: Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/VFX/TestOpticalFlow.vfx using Guid(a8f016b0361437a4d99411ef74a19f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6c73a0bfdcf4b9470f746e90af320a') in 0.003670 seconds
+  Import took 0.009259 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002081 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.73 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.014 seconds
+Platform modules already initialized, skipping
+Shader 'Universal Render Pipeline/Particles/Lit': fallback shader 'Universal Render Pipeline/Particles/SimpleLit' not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3127 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 129.8 MB.
+System memory in use after: 129.7 MB.
+
+Unloading 35 unused Assets to reduce memory usage. Loaded Objects now: 3664.
+Total: 3.363800 ms (FindLiveObjects: 0.341100 ms CreateObjectMapping: 0.188500 ms MarkObjects: 2.590500 ms  DeleteObjects: 0.242300 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

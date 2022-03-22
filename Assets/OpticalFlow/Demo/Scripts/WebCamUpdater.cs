@@ -17,6 +17,7 @@ namespace OpticalFlow.Demo
             WebCamDevice userCameraDevice = WebCamTexture.devices[0];
             webCamTexture = new WebCamTexture(userCameraDevice.name, width, height);
             webCamTexture.Play();
+            Debug.Log(webCamTexture.width+"  "+webCamTexture.height);
         }
 
         void Update ()
@@ -29,7 +30,7 @@ namespace OpticalFlow.Demo
 
         void OnRenderImage(RenderTexture source, RenderTexture destination)
         {
-            Graphics.Blit(webCamTexture, destination);
+           // Graphics.Blit(webCamTexture, destination);
         }
 
         protected void OnDestroy()

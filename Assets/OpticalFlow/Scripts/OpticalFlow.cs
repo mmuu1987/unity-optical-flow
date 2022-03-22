@@ -21,7 +21,7 @@ namespace OpticalFlow
         [SerializeField, Range(0, 6)] int blurIterations = 0, blurDownSample = 0;
         [SerializeField] protected bool debug;
 
-        protected RenderTexture prevFrame, flowBuffer, resultBuffer;
+        public RenderTexture prevFrame, flowBuffer, resultBuffer;
 
         #region MonoBehaviour functions
 
