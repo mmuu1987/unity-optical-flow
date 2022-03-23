@@ -86,7 +86,7 @@ namespace OpticalFlow
             }
 
             flowMaterial.SetTexture("_PrevTex", prevFrame);
-            flowMaterial.SetFloat("_Ratio", 1f * Screen.height / Screen.width);
+            flowMaterial.SetFloat("_Ratio", 1f);
 
             Graphics.Blit(current, flowBuffer, flowMaterial, (int)Pass.Flow);
             Graphics.Blit(current, prevFrame);
