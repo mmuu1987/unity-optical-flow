@@ -13,18 +13,26 @@ namespace OpticalFlow.Demo
         [SerializeField] protected WebCamTexture webCamTexture;
         [SerializeField] protected int width = 512, height = 512;
 
+
+        public RenderTexture CamRenderTexture;
         void Start () {
-            WebCamDevice userCameraDevice = WebCamTexture.devices[0];
-            webCamTexture = new WebCamTexture(userCameraDevice.name, width, height);
-            webCamTexture.Play();
-            Debug.Log(webCamTexture.width+"  "+webCamTexture.height);
+            //WebCamDevice userCameraDevice = WebCamTexture.devices[0];
+            //webCamTexture = new WebCamTexture(userCameraDevice.name, width, height);
+            //webCamTexture.Play();
+            //Debug.Log(webCamTexture.width + "  " + webCamTexture.height);
         }
 
         void Update ()
         {
-            if(webCamTexture != null && webCamTexture.didUpdateThisFrame)
+            //if (webCamTexture != null && webCamTexture.didUpdateThisFrame)
+            //{
+            //    textureUpdateEvent.Invoke(webCamTexture);
+            //}
+
+
+            if (CamRenderTexture != null)
             {
-                textureUpdateEvent.Invoke(webCamTexture);
+                textureUpdateEvent.Invoke(CamRenderTexture);
             }
         }
 

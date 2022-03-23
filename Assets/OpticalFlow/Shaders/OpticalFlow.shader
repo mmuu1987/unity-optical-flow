@@ -43,8 +43,10 @@
     vsin vert (appdata v)
     {
         vsin o;
+       
         o.vertex = UnityObjectToClipPos(v.vertex);
         o.uv = v.uv;
+      
         return o;
     }
 
@@ -141,8 +143,8 @@
             float4 fragFlow (vsin i) : SV_Target
 			{
                 float2 uv = i.uv;
-				float4 current = tex2D(_MainTex, uv);
-				float4 prev = tex2D(_PrevTex, uv);
+				float4 current = tex2D(_MainTex, float2(1-uv.x,uv.y));
+				float4 prev = tex2D(_PrevTex, float2(1-uv.x,uv.y));
 
                 float2 dx = float2(_MainTex_TexelSize.x, 0);
                 float2 dy = float2(0, _MainTex_TexelSize.y);
@@ -220,7 +222,7 @@
                 float2 uv = i.uv;
                 uv.y *= _Ratio;
 				float4 velocity = tex2D(_MainTex, uv);
-                return float4(abs(velocity.xy), 0, 1);
+                return float4(velocity.xy, 0, 1);
             }
 
 			ENDCG
